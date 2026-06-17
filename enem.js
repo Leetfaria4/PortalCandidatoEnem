@@ -42,6 +42,10 @@ function salvarFormulario(event) {
     formCadastro.reset();
 }
 
+setTimeout(function() {
+        window.location.href = 'login.html';
+    }, 1500);
+    
 function voltarPagina() {
     window.location.href = 'enem.html';
 }
